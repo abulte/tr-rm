@@ -107,7 +107,7 @@ def display():
 @cli
 def export_csv(date):
     """
-    date: date for export, format is 20230333
+    :date: date for export, format is 20230333
     """
     q = f"""
     SELECT * FROM disruptions

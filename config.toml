@@ -1,0 +1,7 @@
+_FLOAT_VARS = []
+_INT_VARS = []
+
+DATABASE_URL = ""
+SNCF_API_KEY = ""
+BASE_URL = "https://api.sncf.com/v1"
+LOG_LEVEL = "INFO"

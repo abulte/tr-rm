@@ -1,0 +1,37 @@
+{
+    "status": "future",
+    "disruption_id": "68232c95-291e-4fef-b4be-caa43d525b0c",
+    "severity": {
+      "color": "#000000",
+      "priority": 42,
+      "name": "trip canceled",
+      "effect": "NO_SERVICE"
+    },
+    "impact_id": "68232c95-291e-4fef-b4be-caa43d525b0c",
+    "application_periods": [
+      {
+        "begin": "20230322T202000",
+        "end": "20230322T210000"
+      }
+    ],
+    "updated_at": "20230321T100854",
+    "uri": "68232c95-291e-4fef-b4be-caa43d525b0c",
+    "impacted_objects": [
+      {
+        "pt_object": {
+          "embedded_type": "trip",
+          "id": "SNCF:2023-03-22:830434:1187:Train",
+          "quality": 0,
+          "name": "SNCF:2023-03-22:830434:1187:Train",
+          "trip": {
+            "id": "SNCF:2023-03-22:830434:1187:Train",
+            "name": "830434"
+          }
+        }
+      }
+    ],
+    "disruption_uri": "68232c95-291e-4fef-b4be-caa43d525b0c",
+    "contributor": "realtime.sncf.piv",
+    "cause": "",
+    "id": "68232c95-291e-4fef-b4be-caa43d525b0c"
+  }

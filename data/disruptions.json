@@ -1,0 +1,5355 @@
+{
+    "disruptions": [
+      {
+        "status": "past",
+        "disruption_id": "3833976d-de4a-4cd7-8f0a-1b24174a4346",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "additional service",
+          "effect": "ADDITIONAL_SERVICE"
+        },
+        "impact_id": "3833976d-de4a-4cd7-8f0a-1b24174a4346",
+        "application_periods": [
+          {
+            "begin": "20230321T010500",
+            "end": "20230321T015819"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "3833976d-de4a-4cd7-8f0a-1b24174a4346",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "010612",
+                "stop_point": {
+                  "name": "Aulnay Sous Bois Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.931652",
+                    "lon": "2.49444"
+                  },
+                  "label": "Aulnay Sous Bois Noctilien (Aulnay-sous-Bois)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87594945:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "010612",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "011619",
+                "stop_point": {
+                  "name": "Sevran Livry Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.93583",
+                    "lon": "2.534957"
+                  },
+                  "label": "Sevran Livry Noctilien (Sevran)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87594952:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "011737",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012113",
+                "stop_point": {
+                  "name": "Sevran Beaudottes - Martin Luther King",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.948196",
+                    "lon": "2.532048"
+                  },
+                  "label": "Sevran Beaudottes - Martin Luther King (Sevran)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87986554:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012128",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012257",
+                "stop_point": {
+                  "name": "Villepinte - Le Clos Montceleux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.95434",
+                    "lon": "2.535675"
+                  },
+                  "label": "Villepinte - Le Clos Montceleux (Villepinte)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87986562:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012310",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012614",
+                "stop_point": {
+                  "name": "Villepinte Espace V",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.959979",
+                    "lon": "2.552578"
+                  },
+                  "label": "Villepinte Espace V (Villepinte)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982074:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012629",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013053",
+                "stop_point": {
+                  "name": "Foyer des Bruyères",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.981551",
+                    "lon": "2.555754"
+                  },
+                  "label": "Foyer des Bruyères (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982116:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013657",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013657",
+                "stop_point": {
+                  "name": "Tremblay-en-France - Marguilliers",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.994618",
+                    "lon": "2.523669"
+                  },
+                  "label": "Tremblay-en-France - Marguilliers (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982124:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013722",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "014012",
+                "stop_point": {
+                  "name": "Rue des Vignes",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.004687",
+                    "lon": "2.548313"
+                  },
+                  "label": "Rue des Vignes (Roissy-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994566:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "014046",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "014508",
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T2",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.00436",
+                    "lon": "2.571021"
+                  },
+                  "label": "Aéroport Charles de Gaulle T2 (Le Mesnil-Amelot)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994228:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "014609",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "015149",
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T1",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.013273",
+                    "lon": "2.541919"
+                  },
+                  "label": "Aéroport Charles de Gaulle T1 (Mauregard)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994210:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "015206",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "015819",
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T3",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.009976",
+                    "lon": "2.561354"
+                  },
+                  "label": "Aéroport Charles de Gaulle T3 (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994152:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "015819",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "stop_point": {
+                  "name": "Aulnay Sous Bois Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.931652",
+                    "lon": "2.49444"
+                  },
+                  "label": "Aulnay Sous Bois Noctilien (Aulnay-sous-Bois)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87594945:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Sevran Livry Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.93583",
+                    "lon": "2.534957"
+                  },
+                  "label": "Sevran Livry Noctilien (Sevran)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87594952:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Sevran Beaudottes - Martin Luther King",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.948196",
+                    "lon": "2.532048"
+                  },
+                  "label": "Sevran Beaudottes - Martin Luther King (Sevran)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87986554:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Villepinte - Le Clos Montceleux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.95434",
+                    "lon": "2.535675"
+                  },
+                  "label": "Villepinte - Le Clos Montceleux (Villepinte)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87986562:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Villepinte Espace V",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.959979",
+                    "lon": "2.552578"
+                  },
+                  "label": "Villepinte Espace V (Villepinte)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982074:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Foyer des Bruyères",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.981551",
+                    "lon": "2.555754"
+                  },
+                  "label": "Foyer des Bruyères (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982116:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Tremblay-en-France - Marguilliers",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.994618",
+                    "lon": "2.523669"
+                  },
+                  "label": "Tremblay-en-France - Marguilliers (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87982124:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Rue des Vignes",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.004687",
+                    "lon": "2.548313"
+                  },
+                  "label": "Rue des Vignes (Roissy-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994566:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T2",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.00436",
+                    "lon": "2.571021"
+                  },
+                  "label": "Aéroport Charles de Gaulle T2 (Le Mesnil-Amelot)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994228:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T1",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.013273",
+                    "lon": "2.541919"
+                  },
+                  "label": "Aéroport Charles de Gaulle T1 (Mauregard)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994210:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Aéroport Charles de Gaulle T3",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.009976",
+                    "lon": "2.561354"
+                  },
+                  "label": "Aéroport Charles de Gaulle T3 (Tremblay-en-France)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87994152:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:18706392:1187:Bus",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:18706392:1187:Bus",
+              "trip": {
+                "id": "SNCF:2023-03-21:18706392:1187:Bus",
+                "name": "18706392"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "3833976d-de4a-4cd7-8f0a-1b24174a4346",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "3833976d-de4a-4cd7-8f0a-1b24174a4346"
+      },
+      {
+        "status": "past",
+        "disruption_id": "c723d8cc-2e81-40bc-acae-0517ec78465d",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "c723d8cc-2e81-40bc-acae-0517ec78465d",
+        "application_periods": [
+          {
+            "begin": "20230321T151700",
+            "end": "20230321T161800"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "c723d8cc-2e81-40bc-acae-0517ec78465d",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:834361:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:834361:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:834361:1187:Train",
+                "name": "834361"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "c723d8cc-2e81-40bc-acae-0517ec78465d",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "c723d8cc-2e81-40bc-acae-0517ec78465d"
+      },
+      {
+        "status": "past",
+        "disruption_id": "9c1f74f2-4042-462a-a624-fd435ea68610",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "reduced service",
+          "effect": "REDUCED_SERVICE"
+        },
+        "impact_id": "9c1f74f2-4042-462a-a624-fd435ea68610",
+        "application_periods": [
+          {
+            "begin": "20230320T173800",
+            "end": "20230320T230500"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Régulation du trafic",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "9c1f74f2-4042-462a-a624-fd435ea68610",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "173800",
+                "stop_point": {
+                  "name": "Tarbes",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.239863",
+                    "lon": "0.069442"
+                  },
+                  "label": "Tarbes (Tarbes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87671008:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "173800",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "173800",
+                "arrival_status": "unchanged"
+              },
+              {
+                "stop_point": {
+                  "name": "Lourdes",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.100429",
+                    "lon": "-0.042186"
+                  },
+                  "label": "Lourdes (Lourdes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87671339:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "175200",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "180200",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Pau",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.291711",
+                    "lon": "-0.369675"
+                  },
+                  "label": "Pau (Pau)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672006:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "182700",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "182900",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Orthez",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.484242",
+                    "lon": "-0.76776"
+                  },
+                  "label": "Orthez (Orthez)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672253:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "185000",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "185200",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Dax",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.720472",
+                    "lon": "-1.050301"
+                  },
+                  "label": "Dax (Dax)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87673202:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "192000",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "192900",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Bordeaux Saint-Jean",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.825873",
+                    "lon": "-0.556697"
+                  },
+                  "label": "Bordeaux Saint-Jean (Bordeaux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87581009:LongDistanceTrain"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "205500",
+                "base_arrival_time": "204000",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "205000",
+                "arrival_status": "deleted"
+              },
+              {
+                "amended_arrival_time": "230500",
+                "stop_point": {
+                  "name": "Paris - Montparnasse - Hall 1 & 2",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.841172",
+                    "lon": "2.320514"
+                  },
+                  "label": "Paris - Montparnasse - Hall 1 & 2 (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87391003:LongDistanceTrain"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "230500",
+                "base_arrival_time": "230000",
+                "cause": "Régulation du trafic",
+                "base_departure_time": "230000",
+                "arrival_status": "delayed"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:8587:1187:LongDistanceTrain",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:8587:1187:LongDistanceTrain",
+              "trip": {
+                "id": "SNCF:2023-03-20:8587:1187:LongDistanceTrain",
+                "name": "8587"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "9c1f74f2-4042-462a-a624-fd435ea68610",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "9c1f74f2-4042-462a-a624-fd435ea68610"
+      },
+      {
+        "status": "active",
+        "disruption_id": "a6dd9c41-9faf-456d-a465-0a620d271ab0",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "a6dd9c41-9faf-456d-a465-0a620d271ab0",
+        "application_periods": [
+          {
+            "begin": "20230321T160800",
+            "end": "20230321T191300"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "a6dd9c41-9faf-456d-a465-0a620d271ab0",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:6921:1187:LongDistanceTrain",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:6921:1187:LongDistanceTrain",
+              "trip": {
+                "id": "SNCF:2023-03-21:6921:1187:LongDistanceTrain",
+                "name": "6921"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "a6dd9c41-9faf-456d-a465-0a620d271ab0",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "a6dd9c41-9faf-456d-a465-0a620d271ab0"
+      },
+      {
+        "status": "past",
+        "disruption_id": "3afd73f4-0e1e-4388-98de-3ada4ce5e598",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "3afd73f4-0e1e-4388-98de-3ada4ce5e598",
+        "application_periods": [
+          {
+            "begin": "20230320T223800",
+            "end": "20230320T232500"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "3afd73f4-0e1e-4388-98de-3ada4ce5e598",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:23769:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:23769:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:23769:1187:Train",
+                "name": "23769"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "3afd73f4-0e1e-4388-98de-3ada4ce5e598",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "3afd73f4-0e1e-4388-98de-3ada4ce5e598"
+      },
+      {
+        "status": "past",
+        "disruption_id": "6d97e267-42e7-4849-ba72-dcddde321ecb",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "6d97e267-42e7-4849-ba72-dcddde321ecb",
+        "application_periods": [
+          {
+            "begin": "20230320T123100",
+            "end": "20230320T124200"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "6d97e267-42e7-4849-ba72-dcddde321ecb",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:88837:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:88837:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:88837:1187:Train",
+                "name": "88837"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "6d97e267-42e7-4849-ba72-dcddde321ecb",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "6d97e267-42e7-4849-ba72-dcddde321ecb"
+      },
+      {
+        "status": "past",
+        "disruption_id": "414ee705-aad6-4e7e-b0e8-668553e36fd0",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "reduced service",
+          "effect": "REDUCED_SERVICE"
+        },
+        "impact_id": "414ee705-aad6-4e7e-b0e8-668553e36fd0",
+        "application_periods": [
+          {
+            "begin": "20230321T134300",
+            "end": "20230321T164300"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Acte de vandalisme",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "414ee705-aad6-4e7e-b0e8-668553e36fd0",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "134300",
+                "stop_point": {
+                  "name": "Annecy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.902047",
+                    "lon": "6.121826"
+                  },
+                  "label": "Annecy (Annecy)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87746008:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "134300",
+                "base_arrival_time": "134300",
+                "cause": "",
+                "base_departure_time": "134300",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "135900",
+                "stop_point": {
+                  "name": "Rumilly",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.863053",
+                    "lon": "5.947949"
+                  },
+                  "label": "Rumilly (Rumilly)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87746149:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "140100",
+                "base_arrival_time": "135900",
+                "cause": "",
+                "base_departure_time": "140100",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "140800",
+                "stop_point": {
+                  "name": "Albens",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.785946",
+                    "lon": "5.948342"
+                  },
+                  "label": "Albens (Entrelacs)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87746115:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "141000",
+                "base_arrival_time": "140800",
+                "cause": "",
+                "base_departure_time": "141000",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "141630",
+                "stop_point": {
+                  "name": "Grésy-sur-Aix",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.724527",
+                    "lon": "5.922146"
+                  },
+                  "label": "Grésy-sur-Aix (Grésy-sur-Aix)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87746107:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "141800",
+                "base_arrival_time": "141630",
+                "cause": "",
+                "base_departure_time": "141800",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "142330",
+                "stop_point": {
+                  "name": "Aix-les-Bains - Le Revard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.688161",
+                    "lon": "5.909371"
+                  },
+                  "label": "Aix-les-Bains - Le Revard (Aix-les-Bains)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87741132:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "142600",
+                "base_arrival_time": "142330",
+                "cause": "",
+                "base_departure_time": "142600",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "143700",
+                "stop_point": {
+                  "name": "Chambéry - Challes-les-Eaux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.571302",
+                    "lon": "5.919547"
+                  },
+                  "label": "Chambéry - Challes-les-Eaux (Chambéry)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87741009:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "144000",
+                "base_arrival_time": "143700",
+                "cause": "",
+                "base_departure_time": "144000",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "144900",
+                "stop_point": {
+                  "name": "Montmélian",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.503082",
+                    "lon": "6.043175"
+                  },
+                  "label": "Montmélian (Montmélian)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87741181:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "145100",
+                "base_arrival_time": "144900",
+                "cause": "",
+                "base_departure_time": "145100",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "145700",
+                "stop_point": {
+                  "name": "Pontcharra sur Bréda - Allevard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.434091",
+                    "lon": "6.007859"
+                  },
+                  "label": "Pontcharra sur Bréda - Allevard (Pontcharra)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87747493:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "145830",
+                "base_arrival_time": "145700",
+                "cause": "",
+                "base_departure_time": "145830",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "151700",
+                "stop_point": {
+                  "name": "Grenoble Universités - Gières",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.184971",
+                    "lon": "5.784731"
+                  },
+                  "label": "Grenoble Universités - Gières (Gières)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87747402:LongDistanceTrain"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "151830",
+                "base_arrival_time": "151700",
+                "cause": "",
+                "base_departure_time": "151830",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "152730",
+                "stop_point": {
+                  "name": "Grenoble",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.191491",
+                    "lon": "5.714548"
+                  },
+                  "label": "Grenoble (Grenoble)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87747006:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "152730",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "153030",
+                "arrival_status": "unchanged"
+              },
+              {
+                "stop_point": {
+                  "name": "Moirans",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.32216",
+                    "lon": "5.581934"
+                  },
+                  "label": "Moirans (Moirans)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87747329:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "154130",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "154300",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Tullins Fures",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.300905",
+                    "lon": "5.492174"
+                  },
+                  "label": "Tullins Fures (Tullins)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87761759:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "154830",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "155000",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Saint-Marcellin",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.150885",
+                    "lon": "5.323654"
+                  },
+                  "label": "Saint-Marcellin (Saint-Marcellin)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87761718:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "160330",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "160500",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Saint-Hilaire - Saint-Nazaire",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.071342",
+                    "lon": "5.243845"
+                  },
+                  "label": "Saint-Hilaire - Saint-Nazaire (Saint-Hilaire-du-Rosier)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87761684:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "161300",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "161430",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Romans - Bourg-de-Péage",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.048862",
+                    "lon": "5.049574"
+                  },
+                  "label": "Romans - Bourg-de-Péage (Romans-sur-Isère)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87761650:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "162530",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "162700",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Valence TGV Rhône-Alpes Sud",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.991907",
+                    "lon": "4.978652"
+                  },
+                  "label": "Valence TGV Rhône-Alpes Sud (Alixan)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87763029:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "163330",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "163500",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Valence Ville",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.928081",
+                    "lon": "4.893288"
+                  },
+                  "label": "Valence Ville (Valence)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87761007:LongDistanceTrain"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "164300",
+                "base_arrival_time": "164300",
+                "cause": "Acte de vandalisme",
+                "base_departure_time": "164300",
+                "arrival_status": "deleted"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:17528:1187:LongDistanceTrain",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:17528:1187:LongDistanceTrain",
+              "trip": {
+                "id": "SNCF:2023-03-21:17528:1187:LongDistanceTrain",
+                "name": "17528"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "414ee705-aad6-4e7e-b0e8-668553e36fd0",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "414ee705-aad6-4e7e-b0e8-668553e36fd0"
+      },
+      {
+        "status": "past",
+        "disruption_id": "bea2ba75-9402-4270-b3db-5861495703cd",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "bea2ba75-9402-4270-b3db-5861495703cd",
+        "application_periods": [
+          {
+            "begin": "20230320T095100",
+            "end": "20230320T115400"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "bea2ba75-9402-4270-b3db-5861495703cd",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:3908:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:3908:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:3908:1187:Train",
+                "name": "3908"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "bea2ba75-9402-4270-b3db-5861495703cd",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "bea2ba75-9402-4270-b3db-5861495703cd"
+      },
+      {
+        "status": "past",
+        "disruption_id": "8b2ad42f-0e95-462b-91e0-873d733ee393",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "additional service",
+          "effect": "ADDITIONAL_SERVICE"
+        },
+        "impact_id": "8b2ad42f-0e95-462b-91e0-873d733ee393",
+        "application_periods": [
+          {
+            "begin": "20230319T021000",
+            "end": "20230319T033200"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "8b2ad42f-0e95-462b-91e0-873d733ee393",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "021000",
+                "stop_point": {
+                  "name": "Corbeil Essonne Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.613964",
+                    "lon": "2.474243"
+                  },
+                  "label": "Corbeil Essonne Noctilien (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574970:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021000",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021300",
+                "stop_point": {
+                  "name": "Corbeil-Essonnes - Ambroise Croizat",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.606355",
+                    "lon": "2.466173"
+                  },
+                  "label": "Corbeil-Essonnes - Ambroise Croizat (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984369:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021300",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021500",
+                "stop_point": {
+                  "name": "Corbeil-Essonnes - Les Tarterêts",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.613746",
+                    "lon": "2.458717"
+                  },
+                  "label": "Corbeil-Essonnes - Les Tarterêts (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87977355:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021500",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021800",
+                "stop_point": {
+                  "name": "Bras De Fer Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.623416",
+                    "lon": "2.450088"
+                  },
+                  "label": "Bras De Fer Noctilien (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574962:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021800",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "022300",
+                "stop_point": {
+                  "name": "Evry Courcouronnes Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.625584",
+                    "lon": "2.42888"
+                  },
+                  "label": "Evry Courcouronnes Noctilien (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574954:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "022300",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "022700",
+                "stop_point": {
+                  "name": "Évry - Pyramides",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.635546",
+                    "lon": "2.425618"
+                  },
+                  "label": "Évry - Pyramides (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87977942:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "022700",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "023000",
+                "stop_point": {
+                  "name": "Ris-Orangis - Daumesnil",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.650749",
+                    "lon": "2.415131"
+                  },
+                  "label": "Ris-Orangis - Daumesnil (Ris-Orangis)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87983155:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "023000",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "023200",
+                "stop_point": {
+                  "name": "Ris-Orangis - Jean Jaurès",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.650262",
+                    "lon": "2.406666"
+                  },
+                  "label": "Ris-Orangis - Jean Jaurès (Ris-Orangis)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984161:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "023200",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "023500",
+                "stop_point": {
+                  "name": "Grigny Centre Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.652976",
+                    "lon": "2.395065"
+                  },
+                  "label": "Grigny Centre Noctilien (Grigny)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574947:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "023500",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "024300",
+                "stop_point": {
+                  "name": "Viry Chatillon Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.675951",
+                    "lon": "2.386565"
+                  },
+                  "label": "Viry Chatillon Noctilien (Viry-Châtillon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574939:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "024300",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "024600",
+                "stop_point": {
+                  "name": "Viry-Châtillon - Blazy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.684871",
+                    "lon": "2.374684"
+                  },
+                  "label": "Viry-Châtillon - Blazy (Viry-Châtillon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984104:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "024600",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "025200",
+                "stop_point": {
+                  "name": "Juvisy Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.690446",
+                    "lon": "2.381638"
+                  },
+                  "label": "Juvisy Noctilien (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574921:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "025200",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "025600",
+                "stop_point": {
+                  "name": "Juvisy - Mairie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.689856",
+                    "lon": "2.373213"
+                  },
+                  "label": "Juvisy - Mairie (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414409:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "025600",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "025800",
+                "stop_point": {
+                  "name": "Juvisy - Pyramide",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.698017",
+                    "lon": "2.371695"
+                  },
+                  "label": "Juvisy - Pyramide (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414425:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "025800",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "030400",
+                "stop_point": {
+                  "name": "Aérogare Orly Sud - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.728829",
+                    "lon": "2.369614"
+                  },
+                  "label": "Aérogare Orly Sud - Noctilien (Paray-Vieille-Poste)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87523548:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "030400",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "032100",
+                "stop_point": {
+                  "name": "Porte d'Italie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.819065",
+                    "lon": "2.359539"
+                  },
+                  "label": "Porte d'Italie (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414466:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "032100",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "032400",
+                "stop_point": {
+                  "name": "Place d'Italie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.831603",
+                    "lon": "2.3562"
+                  },
+                  "label": "Place d'Italie (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414441:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "032400",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "033200",
+                "stop_point": {
+                  "name": "Gare De Lyon - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.84578",
+                    "lon": "2.373719"
+                  },
+                  "label": "Gare De Lyon - Noctilien (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87588202:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "033200",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "stop_point": {
+                  "name": "Corbeil Essonne Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.613964",
+                    "lon": "2.474243"
+                  },
+                  "label": "Corbeil Essonne Noctilien (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574970:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Corbeil-Essonnes - Ambroise Croizat",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.606355",
+                    "lon": "2.466173"
+                  },
+                  "label": "Corbeil-Essonnes - Ambroise Croizat (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984369:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Corbeil-Essonnes - Les Tarterêts",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.613746",
+                    "lon": "2.458717"
+                  },
+                  "label": "Corbeil-Essonnes - Les Tarterêts (Corbeil-Essonnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87977355:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Bras De Fer Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.623416",
+                    "lon": "2.450088"
+                  },
+                  "label": "Bras De Fer Noctilien (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574962:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Evry Courcouronnes Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.625584",
+                    "lon": "2.42888"
+                  },
+                  "label": "Evry Courcouronnes Noctilien (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574954:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Évry - Pyramides",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.635546",
+                    "lon": "2.425618"
+                  },
+                  "label": "Évry - Pyramides (Évry-Courcouronnes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87977942:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Ris-Orangis - Daumesnil",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.650749",
+                    "lon": "2.415131"
+                  },
+                  "label": "Ris-Orangis - Daumesnil (Ris-Orangis)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87983155:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Ris-Orangis - Jean Jaurès",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.650262",
+                    "lon": "2.406666"
+                  },
+                  "label": "Ris-Orangis - Jean Jaurès (Ris-Orangis)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984161:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Grigny Centre Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.652976",
+                    "lon": "2.395065"
+                  },
+                  "label": "Grigny Centre Noctilien (Grigny)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574947:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Viry Chatillon Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.675951",
+                    "lon": "2.386565"
+                  },
+                  "label": "Viry Chatillon Noctilien (Viry-Châtillon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574939:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Viry-Châtillon - Blazy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.684871",
+                    "lon": "2.374684"
+                  },
+                  "label": "Viry-Châtillon - Blazy (Viry-Châtillon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87984104:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Juvisy Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.690446",
+                    "lon": "2.381638"
+                  },
+                  "label": "Juvisy Noctilien (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87574921:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Juvisy - Mairie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.689856",
+                    "lon": "2.373213"
+                  },
+                  "label": "Juvisy - Mairie (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414409:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Juvisy - Pyramide",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.698017",
+                    "lon": "2.371695"
+                  },
+                  "label": "Juvisy - Pyramide (Juvisy-sur-Orge)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414425:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Aérogare Orly Sud - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.728829",
+                    "lon": "2.369614"
+                  },
+                  "label": "Aérogare Orly Sud - Noctilien (Paray-Vieille-Poste)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87523548:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Porte d'Italie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.819065",
+                    "lon": "2.359539"
+                  },
+                  "label": "Porte d'Italie (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414466:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Place d'Italie",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.831603",
+                    "lon": "2.3562"
+                  },
+                  "label": "Place d'Italie (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414441:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Gare De Lyon - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.84578",
+                    "lon": "2.373719"
+                  },
+                  "label": "Gare De Lyon - Noctilien (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87588202:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-19:18706537:1187:Bus",
+              "quality": 0,
+              "name": "SNCF:2023-03-19:18706537:1187:Bus",
+              "trip": {
+                "id": "SNCF:2023-03-19:18706537:1187:Bus",
+                "name": "18706537"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "8b2ad42f-0e95-462b-91e0-873d733ee393",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "8b2ad42f-0e95-462b-91e0-873d733ee393"
+      },
+      {
+        "status": "past",
+        "disruption_id": "6515f93c-7e3f-44b8-b8a1-17fac31a8532",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "6515f93c-7e3f-44b8-b8a1-17fac31a8532",
+        "application_periods": [
+          {
+            "begin": "20230320T173300",
+            "end": "20230320T180300"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "6515f93c-7e3f-44b8-b8a1-17fac31a8532",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:88812:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:88812:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:88812:1187:Train",
+                "name": "88812"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "6515f93c-7e3f-44b8-b8a1-17fac31a8532",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "6515f93c-7e3f-44b8-b8a1-17fac31a8532"
+      },
+      {
+        "status": "past",
+        "disruption_id": "9c4022d2-1acc-45e9-b618-3713eb525f06",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "9c4022d2-1acc-45e9-b618-3713eb525f06",
+        "application_periods": [
+          {
+            "begin": "20230320T151700",
+            "end": "20230320T161800"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "9c4022d2-1acc-45e9-b618-3713eb525f06",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:834361:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:834361:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:834361:1187:Train",
+                "name": "834361"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "9c4022d2-1acc-45e9-b618-3713eb525f06",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "9c4022d2-1acc-45e9-b618-3713eb525f06"
+      },
+      {
+        "status": "past",
+        "disruption_id": "4bfb11cc-53a2-411e-87f7-6f64fcfea850",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip delayed",
+          "effect": "SIGNIFICANT_DELAYS"
+        },
+        "impact_id": "4bfb11cc-53a2-411e-87f7-6f64fcfea850",
+        "application_periods": [
+          {
+            "begin": "20230321T065700",
+            "end": "20230321T085100"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Réutilisation d'un train",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "4bfb11cc-53a2-411e-87f7-6f64fcfea850",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "065700",
+                "stop_point": {
+                  "name": "Lyon Perrache",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.748508",
+                    "lon": "4.825777"
+                  },
+                  "label": "Lyon Perrache (Lyon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87722025:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "065700",
+                "base_arrival_time": "065700",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "065700",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "071000",
+                "stop_point": {
+                  "name": "Lyon Part Dieu",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.760596",
+                    "lon": "4.859409"
+                  },
+                  "label": "Lyon Part Dieu (Lyon)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87723197:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "071300",
+                "base_arrival_time": "070500",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "070800",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "072330",
+                "stop_point": {
+                  "name": "Albigny - Neuville",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.874897",
+                    "lon": "4.832852"
+                  },
+                  "label": "Albigny - Neuville (Albigny-sur-Saône)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721266:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "072430",
+                "base_arrival_time": "071830",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "071930",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "072730",
+                "stop_point": {
+                  "name": "Saint-Germain-au-Mont-d'Or",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.888431",
+                    "lon": "4.804206"
+                  },
+                  "label": "Saint-Germain-au-Mont-d'Or (Saint-Germain-au-Mont-d'Or)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721282:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "072930",
+                "base_arrival_time": "072230",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "072430",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "073530",
+                "stop_point": {
+                  "name": "Chazay - Marcilly",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.873252",
+                    "lon": "4.725253"
+                  },
+                  "label": "Chazay - Marcilly (Marcilly-d'Azergues)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721415:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "073630",
+                "base_arrival_time": "073030",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "073130",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "074000",
+                "stop_point": {
+                  "name": "Lozanne",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.854174",
+                    "lon": "4.681474"
+                  },
+                  "label": "Lozanne (Lozanne)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721423:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "074130",
+                "base_arrival_time": "073500",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "073630",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "075200",
+                "stop_point": {
+                  "name": "L'Arbresle",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.833285",
+                    "lon": "4.618262"
+                  },
+                  "label": "L'Arbresle (L'Arbresle)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721431:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "075330",
+                "base_arrival_time": "074200",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "074330",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "075930",
+                "stop_point": {
+                  "name": "Saint-Romain-de-Popey",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.861414",
+                    "lon": "4.542447"
+                  },
+                  "label": "Saint-Romain-de-Popey (Saint-Romain-de-Popey)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721456:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "080030",
+                "base_arrival_time": "074930",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "075030",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "080430",
+                "stop_point": {
+                  "name": "Pontcharra - Saint-Forgeux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.871541",
+                    "lon": "4.492904"
+                  },
+                  "label": "Pontcharra - Saint-Forgeux (Vindry-sur-Turdine)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721464:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "080530",
+                "base_arrival_time": "075430",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "075530",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "081000",
+                "stop_point": {
+                  "name": "Tarare",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.889866",
+                    "lon": "4.439175"
+                  },
+                  "label": "Tarare (Tarare)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721472:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "081130",
+                "base_arrival_time": "080000",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "080130",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "082300",
+                "stop_point": {
+                  "name": "Amplepuis",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.971014",
+                    "lon": "4.326763"
+                  },
+                  "label": "Amplepuis (Amplepuis)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721035:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "082400",
+                "base_arrival_time": "081300",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "081400",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "082900",
+                "stop_point": {
+                  "name": "Saint-Victor - Thizy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "46.002585",
+                    "lon": "4.281106"
+                  },
+                  "label": "Saint-Victor - Thizy (Saint-Victor-sur-Rhins)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721043:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "083000",
+                "base_arrival_time": "081900",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "082000",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "083500",
+                "stop_point": {
+                  "name": "Régny",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "45.987743",
+                    "lon": "4.215263"
+                  },
+                  "label": "Régny (Régny)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87721050:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "083600",
+                "base_arrival_time": "082500",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "082600",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "084630",
+                "stop_point": {
+                  "name": "Le Coteau",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "46.023988",
+                    "lon": "4.086281"
+                  },
+                  "label": "Le Coteau (Le Coteau)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87726828:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "084730",
+                "base_arrival_time": "083630",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "083730",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "085100",
+                "stop_point": {
+                  "name": "Roanne",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "46.039383",
+                    "lon": "4.063207"
+                  },
+                  "label": "Roanne (Roanne)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87726802:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "085100",
+                "base_arrival_time": "084100",
+                "cause": "Réutilisation d'un train",
+                "base_departure_time": "084100",
+                "arrival_status": "delayed"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:889654:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:889654:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:889654:1187:Train",
+                "name": "889654"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "4bfb11cc-53a2-411e-87f7-6f64fcfea850",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "4bfb11cc-53a2-411e-87f7-6f64fcfea850"
+      },
+      {
+        "status": "past",
+        "disruption_id": "47fb75ad-44a6-4c51-b45c-9ae1a55ecab7",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "47fb75ad-44a6-4c51-b45c-9ae1a55ecab7",
+        "application_periods": [
+          {
+            "begin": "20230320T193800",
+            "end": "20230320T202500"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "47fb75ad-44a6-4c51-b45c-9ae1a55ecab7",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:23763:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:23763:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:23763:1187:Train",
+                "name": "23763"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "47fb75ad-44a6-4c51-b45c-9ae1a55ecab7",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "47fb75ad-44a6-4c51-b45c-9ae1a55ecab7"
+      },
+      {
+        "status": "past",
+        "disruption_id": "a29f7fe9-cde0-424d-9bcc-74075af79b21",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "a29f7fe9-cde0-424d-9bcc-74075af79b21",
+        "application_periods": [
+          {
+            "begin": "20230320T231300",
+            "end": "20230321T002500"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "a29f7fe9-cde0-424d-9bcc-74075af79b21",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:14079:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:14079:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:14079:1187:Train",
+                "name": "14079"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "a29f7fe9-cde0-424d-9bcc-74075af79b21",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "a29f7fe9-cde0-424d-9bcc-74075af79b21"
+      },
+      {
+        "status": "past",
+        "disruption_id": "e2eae9c9-1cbc-48b3-94c5-8ab0bcb11d70",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip delayed",
+          "effect": "SIGNIFICANT_DELAYS"
+        },
+        "impact_id": "e2eae9c9-1cbc-48b3-94c5-8ab0bcb11d70",
+        "application_periods": [
+          {
+            "begin": "20230321T083000",
+            "end": "20230321T091500"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Prise en charge de clients en correspondance",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "e2eae9c9-1cbc-48b3-94c5-8ab0bcb11d70",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "083500",
+                "stop_point": {
+                  "name": "Metz Ville",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "49.109466",
+                    "lon": "6.177052"
+                  },
+                  "label": "Metz Ville (Metz)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87192039:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "083500",
+                "base_arrival_time": "083000",
+                "cause": "Prise en charge de clients en correspondance",
+                "base_departure_time": "083000",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "085000",
+                "stop_point": {
+                  "name": "Pagny-sur-Moselle",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.9852",
+                    "lon": "6.025035"
+                  },
+                  "label": "Pagny-sur-Moselle (Pagny-sur-Moselle)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87192468:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "085100",
+                "base_arrival_time": "084500",
+                "cause": "Prise en charge de clients en correspondance",
+                "base_departure_time": "084600",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "085700",
+                "stop_point": {
+                  "name": "Pont-à-Mousson",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.900348",
+                    "lon": "6.051021"
+                  },
+                  "label": "Pont-à-Mousson (Pont-à-Mousson)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87141820:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "is_detour": false,
+                "amended_departure_time": "085800",
+                "base_arrival_time": "085200",
+                "cause": "Prise en charge de clients en correspondance",
+                "base_departure_time": "085300",
+                "arrival_status": "delayed"
+              },
+              {
+                "amended_arrival_time": "091500",
+                "stop_point": {
+                  "name": "Nancy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.689857",
+                    "lon": "6.174579"
+                  },
+                  "label": "Nancy (Nancy)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87141002:Train"
+                },
+                "stop_time_effect": "delayed",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "091500",
+                "base_arrival_time": "091000",
+                "cause": "Prise en charge de clients en correspondance",
+                "base_departure_time": "091000",
+                "arrival_status": "delayed"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:837524:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:837524:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:837524:1187:Train",
+                "name": "837524"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "e2eae9c9-1cbc-48b3-94c5-8ab0bcb11d70",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "e2eae9c9-1cbc-48b3-94c5-8ab0bcb11d70"
+      },
+      {
+        "status": "past",
+        "disruption_id": "74b53eab-00c0-46d3-89bf-4bf1fea0644c",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "74b53eab-00c0-46d3-89bf-4bf1fea0644c",
+        "application_periods": [
+          {
+            "begin": "20230320T125600",
+            "end": "20230320T132900"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "74b53eab-00c0-46d3-89bf-4bf1fea0644c",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:835088:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:835088:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:835088:1187:Train",
+                "name": "835088"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "74b53eab-00c0-46d3-89bf-4bf1fea0644c",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "74b53eab-00c0-46d3-89bf-4bf1fea0644c"
+      },
+      {
+        "status": "past",
+        "disruption_id": "f5c2a2d8-be78-42bd-a4b4-4170c10235b6",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "reduced service",
+          "effect": "REDUCED_SERVICE"
+        },
+        "impact_id": "f5c2a2d8-be78-42bd-a4b4-4170c10235b6",
+        "application_periods": [
+          {
+            "begin": "20230321T122000",
+            "end": "20230321T132400"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Défaillance de matériel",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "f5c2a2d8-be78-42bd-a4b4-4170c10235b6",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "122000",
+                "stop_point": {
+                  "name": "Nevers le Banlay",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.006853",
+                    "lon": "3.163687"
+                  },
+                  "label": "Nevers le Banlay (Coulanges-lès-Nevers)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87559070:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "122000",
+                "cause": "Défaillance de matériel",
+                "base_departure_time": "122000",
+                "arrival_status": "unchanged"
+              },
+              {
+                "stop_point": {
+                  "name": "Les Perrières",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.005521",
+                    "lon": "3.146714"
+                  },
+                  "label": "Les Perrières (Varennes-Vauzelles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87691600:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "122200",
+                "cause": "Défaillance de matériel",
+                "base_departure_time": "122300",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Nevers",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "46.987282",
+                    "lon": "3.150743"
+                  },
+                  "label": "Nevers (Nevers)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696005:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "123500",
+                "base_arrival_time": "122700",
+                "cause": "Défaillance de matériel",
+                "base_departure_time": "123500",
+                "arrival_status": "deleted"
+              },
+              {
+                "amended_arrival_time": "123730",
+                "stop_point": {
+                  "name": "Vauzelles",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.001314",
+                    "lon": "3.13488"
+                  },
+                  "label": "Vauzelles (Varennes-Vauzelles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87691469:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "123800",
+                "base_arrival_time": "123730",
+                "cause": "",
+                "base_departure_time": "123800",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "124130",
+                "stop_point": {
+                  "name": "Fourchambault",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.01896",
+                    "lon": "3.087166"
+                  },
+                  "label": "Fourchambault (Fourchambault)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696229:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "124230",
+                "base_arrival_time": "124130",
+                "cause": "",
+                "base_departure_time": "124230",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "124730",
+                "stop_point": {
+                  "name": "Pougues-les-Eaux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.076784",
+                    "lon": "3.09403"
+                  },
+                  "label": "Pougues-les-Eaux (Pougues-les-Eaux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696211:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "124800",
+                "base_arrival_time": "124730",
+                "cause": "",
+                "base_departure_time": "124800",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "125200",
+                "stop_point": {
+                  "name": "Tronsanges",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.113149",
+                    "lon": "3.053887"
+                  },
+                  "label": "Tronsanges (Tronsanges)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696203:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "125230",
+                "base_arrival_time": "125200",
+                "cause": "",
+                "base_departure_time": "125230",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "125800",
+                "stop_point": {
+                  "name": "La Charité-sur-Loire",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.179914",
+                    "lon": "3.023883"
+                  },
+                  "label": "La Charité-sur-Loire (La Charité-sur-Loire)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696195:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "125900",
+                "base_arrival_time": "125800",
+                "cause": "",
+                "base_departure_time": "125900",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "130330",
+                "stop_point": {
+                  "name": "Mesves - Bulcy",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.242075",
+                    "lon": "3.006518"
+                  },
+                  "label": "Mesves - Bulcy (Mesves-sur-Loire)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696187:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "130400",
+                "base_arrival_time": "130330",
+                "cause": "",
+                "base_departure_time": "130400",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "130830",
+                "stop_point": {
+                  "name": "Pouilly-sur-Loire",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.282242",
+                    "lon": "2.966276"
+                  },
+                  "label": "Pouilly-sur-Loire (Pouilly-sur-Loire)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696179:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "130900",
+                "base_arrival_time": "130830",
+                "cause": "",
+                "base_departure_time": "130900",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "131500",
+                "stop_point": {
+                  "name": "Tracy Sancerre",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.338091",
+                    "lon": "2.880298"
+                  },
+                  "label": "Tracy Sancerre (Tracy-sur-Loire)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696161:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "131530",
+                "base_arrival_time": "131500",
+                "cause": "",
+                "base_departure_time": "131530",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "132400",
+                "stop_point": {
+                  "name": "Cosne-sur-Loire",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "47.413966",
+                    "lon": "2.93192"
+                  },
+                  "label": "Cosne-sur-Loire (Cosne-Cours-sur-Loire)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87696146:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "132400",
+                "base_arrival_time": "132400",
+                "cause": "",
+                "base_departure_time": "132400",
+                "arrival_status": "unchanged"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:893754:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:893754:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:893754:1187:Train",
+                "name": "893754"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "f5c2a2d8-be78-42bd-a4b4-4170c10235b6",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "f5c2a2d8-be78-42bd-a4b4-4170c10235b6"
+      },
+      {
+        "status": "future",
+        "disruption_id": "6e1f9dbf-b20e-4b0a-8705-3ece2cf25aee",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "6e1f9dbf-b20e-4b0a-8705-3ece2cf25aee",
+        "application_periods": [
+          {
+            "begin": "20230322T170400",
+            "end": "20230322T182300"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "6e1f9dbf-b20e-4b0a-8705-3ece2cf25aee",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-22:830926:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-22:830926:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-22:830926:1187:Train",
+                "name": "830926"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "6e1f9dbf-b20e-4b0a-8705-3ece2cf25aee",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "6e1f9dbf-b20e-4b0a-8705-3ece2cf25aee"
+      },
+      {
+        "status": "future",
+        "disruption_id": "69da6952-bb54-471e-988b-6e2909ad98d5",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "69da6952-bb54-471e-988b-6e2909ad98d5",
+        "application_periods": [
+          {
+            "begin": "20230322T180530",
+            "end": "20230322T230100"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "69da6952-bb54-471e-988b-6e2909ad98d5",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-22:5764:1187:LongDistanceTrain",
+              "quality": 0,
+              "name": "SNCF:2023-03-22:5764:1187:LongDistanceTrain",
+              "trip": {
+                "id": "SNCF:2023-03-22:5764:1187:LongDistanceTrain",
+                "name": "5764"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "69da6952-bb54-471e-988b-6e2909ad98d5",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "69da6952-bb54-471e-988b-6e2909ad98d5"
+      },
+      {
+        "status": "future",
+        "disruption_id": "44021c0b-cf4b-4fbc-8bd8-7e08ca7d70bf",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "44021c0b-cf4b-4fbc-8bd8-7e08ca7d70bf",
+        "application_periods": [
+          {
+            "begin": "20230322T060500",
+            "end": "20230322T070100"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "44021c0b-cf4b-4fbc-8bd8-7e08ca7d70bf",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-22:859650:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-22:859650:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-22:859650:1187:Train",
+                "name": "859650"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "44021c0b-cf4b-4fbc-8bd8-7e08ca7d70bf",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "44021c0b-cf4b-4fbc-8bd8-7e08ca7d70bf"
+      },
+      {
+        "status": "past",
+        "disruption_id": "40cf2d83-4994-4655-b8fe-f353f7cf421c",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "reduced service",
+          "effect": "REDUCED_SERVICE"
+        },
+        "impact_id": "40cf2d83-4994-4655-b8fe-f353f7cf421c",
+        "application_periods": [
+          {
+            "begin": "20230321T061400",
+            "end": "20230321T083600"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Présence de manifestants sur les voies",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "40cf2d83-4994-4655-b8fe-f353f7cf421c",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "061400",
+                "stop_point": {
+                  "name": "Bordeaux Saint-Jean",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.825873",
+                    "lon": "-0.556697"
+                  },
+                  "label": "Bordeaux Saint-Jean (Bordeaux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87581009:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "061400",
+                "base_arrival_time": "061400",
+                "cause": "",
+                "base_departure_time": "061400",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "061930",
+                "stop_point": {
+                  "name": "Pessac",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.804621",
+                    "lon": "-0.631784"
+                  },
+                  "label": "Pessac (Pessac)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87581751:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "062030",
+                "base_arrival_time": "061930",
+                "cause": "",
+                "base_departure_time": "062030",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "063700",
+                "stop_point": {
+                  "name": "Biganos Facture",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.637384",
+                    "lon": "-0.96621"
+                  },
+                  "label": "Biganos Facture (Biganos)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87582478:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "063800",
+                "base_arrival_time": "063700",
+                "cause": "",
+                "base_departure_time": "063800",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "065430",
+                "stop_point": {
+                  "name": "Ychoux",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.32927",
+                    "lon": "-0.946335"
+                  },
+                  "label": "Ychoux (Ychoux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87582536:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "065530",
+                "base_arrival_time": "065430",
+                "cause": "",
+                "base_departure_time": "065530",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "070300",
+                "stop_point": {
+                  "name": "Labouheyre",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.210613",
+                    "lon": "-0.920974"
+                  },
+                  "label": "Labouheyre (Labouheyre)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87582551:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "070400",
+                "base_arrival_time": "070300",
+                "cause": "",
+                "base_departure_time": "070400",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "071330",
+                "stop_point": {
+                  "name": "Morcenx",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "44.033565",
+                    "lon": "-0.90864"
+                  },
+                  "label": "Morcenx (Morcenx-la-Nouvelle)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87673103:Train"
+                },
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "071430",
+                "base_arrival_time": "071330",
+                "cause": "",
+                "base_departure_time": "071430",
+                "arrival_status": "unchanged"
+              },
+              {
+                "amended_arrival_time": "073300",
+                "stop_point": {
+                  "name": "Dax",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.720472",
+                    "lon": "-1.050301"
+                  },
+                  "label": "Dax (Dax)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87673202:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "073300",
+                "cause": "Présence de manifestants sur les voies",
+                "base_departure_time": "074400",
+                "arrival_status": "unchanged"
+              },
+              {
+                "stop_point": {
+                  "name": "Puyoô",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.524682",
+                    "lon": "-0.910812"
+                  },
+                  "label": "Puyoô (Puyoô)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672279:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "080130",
+                "cause": "Présence de manifestants sur les voies",
+                "base_departure_time": "080230",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Orthez",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.484242",
+                    "lon": "-0.76776"
+                  },
+                  "label": "Orthez (Orthez)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672253:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "081200",
+                "cause": "Présence de manifestants sur les voies",
+                "base_departure_time": "081300",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Artix",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.393195",
+                    "lon": "-0.570082"
+                  },
+                  "label": "Artix (Artix)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672212:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "base_arrival_time": "082330",
+                "cause": "Présence de manifestants sur les voies",
+                "base_departure_time": "082430",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Pau",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "43.291711",
+                    "lon": "-0.369675"
+                  },
+                  "label": "Pau (Pau)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87672006:Train"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "unchanged",
+                "is_detour": false,
+                "amended_departure_time": "083600",
+                "base_arrival_time": "083600",
+                "cause": "Présence de manifestants sur les voies",
+                "base_departure_time": "083600",
+                "arrival_status": "deleted"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:867208:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:867208:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:867208:1187:Train",
+                "name": "867208"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "40cf2d83-4994-4655-b8fe-f353f7cf421c",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "40cf2d83-4994-4655-b8fe-f353f7cf421c"
+      },
+      {
+        "status": "past",
+        "disruption_id": "0fd26bab-69ea-449c-bd0c-e540fce13803",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "0fd26bab-69ea-449c-bd0c-e540fce13803",
+        "application_periods": [
+          {
+            "begin": "20230320T163800",
+            "end": "20230320T172530"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "0fd26bab-69ea-449c-bd0c-e540fce13803",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:23755:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:23755:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:23755:1187:Train",
+                "name": "23755"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "0fd26bab-69ea-449c-bd0c-e540fce13803",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "0fd26bab-69ea-449c-bd0c-e540fce13803"
+      },
+      {
+        "status": "past",
+        "disruption_id": "6c2f3c2b-2df3-464a-969d-1fcced64eb16",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "6c2f3c2b-2df3-464a-969d-1fcced64eb16",
+        "application_periods": [
+          {
+            "begin": "20230320T122600",
+            "end": "20230320T133300"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "6c2f3c2b-2df3-464a-969d-1fcced64eb16",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:834130:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:834130:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-20:834130:1187:Train",
+                "name": "834130"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "6c2f3c2b-2df3-464a-969d-1fcced64eb16",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "6c2f3c2b-2df3-464a-969d-1fcced64eb16"
+      },
+      {
+        "status": "past",
+        "disruption_id": "2e0ec2bd-a85f-4b45-9eb8-a9883fd49379",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "additional service",
+          "effect": "ADDITIONAL_SERVICE"
+        },
+        "impact_id": "2e0ec2bd-a85f-4b45-9eb8-a9883fd49379",
+        "application_periods": [
+          {
+            "begin": "20230321T012000",
+            "end": "20230321T024400"
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "2e0ec2bd-a85f-4b45-9eb8-a9883fd49379",
+        "impacted_objects": [
+          {
+            "impacted_stops": [
+              {
+                "amended_arrival_time": "012103",
+                "stop_point": {
+                  "name": "La Verrière Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.755566",
+                    "lon": "1.942579"
+                  },
+                  "label": "La Verrière Noctilien (La Verrière)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591875:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012103",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012337",
+                "stop_point": {
+                  "name": "Les Pyramides",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.763827",
+                    "lon": "1.947767"
+                  },
+                  "label": "Les Pyramides (Maurepas)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414557:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012354",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012412",
+                "stop_point": {
+                  "name": "Franche-Comté - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.766242",
+                    "lon": "1.950293"
+                  },
+                  "label": "Franche-Comté - Noctilien (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87495770:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012452",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012606",
+                "stop_point": {
+                  "name": "La Petite Villedieu",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.766956",
+                    "lon": "1.96084"
+                  },
+                  "label": "La Petite Villedieu (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414565:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012629",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "012751",
+                "stop_point": {
+                  "name": "La Passerelle",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.770651",
+                    "lon": "1.96983"
+                  },
+                  "label": "La Passerelle (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414573:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "012810",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013014",
+                "stop_point": {
+                  "name": "Trappes - Pasteur",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.77358",
+                    "lon": "1.98375"
+                  },
+                  "label": "Trappes - Pasteur (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414540:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013052",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013308",
+                "stop_point": {
+                  "name": "Paul Langevin",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.775922",
+                    "lon": "1.989233"
+                  },
+                  "label": "Paul Langevin (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414532:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013350",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013402",
+                "stop_point": {
+                  "name": "Trappes - Yves Farges",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.776798",
+                    "lon": "1.994949"
+                  },
+                  "label": "Trappes - Yves Farges (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414490:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013421",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "013723",
+                "stop_point": {
+                  "name": "Trappes Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.775061",
+                    "lon": "2.006447"
+                  },
+                  "label": "Trappes Noctilien (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591867:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "013723",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "014201",
+                "stop_point": {
+                  "name": "Groupe Scolaire Pasteur",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.782193",
+                    "lon": "2.034279"
+                  },
+                  "label": "Groupe Scolaire Pasteur (Montigny-le-Bretonneux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414599:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "014215",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "014326",
+                "stop_point": {
+                  "name": "St-Quentin-en-Yvelines - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.78035",
+                    "lon": "2.027347"
+                  },
+                  "label": "St-Quentin-en-Yvelines - Noctilien (Montigny-le-Bretonneux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591859:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "014422",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "014853",
+                "stop_point": {
+                  "name": "St Cyr - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.799005",
+                    "lon": "2.072818"
+                  },
+                  "label": "St Cyr - Noctilien (Saint-Cyr-l'École)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591834:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "014936",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "015310",
+                "stop_point": {
+                  "name": "Porte des Matelots",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.803411",
+                    "lon": "2.104817"
+                  },
+                  "label": "Porte des Matelots (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414516:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "015320",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "015545",
+                "stop_point": {
+                  "name": "Versailles - Rive-Gauche -  Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800043",
+                    "lon": "2.128124"
+                  },
+                  "label": "Versailles - Rive-Gauche -  Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591826:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "015628",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "015833",
+                "stop_point": {
+                  "name": "Versailles Chantiers Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.796313",
+                    "lon": "2.135918"
+                  },
+                  "label": "Versailles Chantiers Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591818:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "015955",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "020333",
+                "stop_point": {
+                  "name": "Porchefontaine - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.796808",
+                    "lon": "2.153776"
+                  },
+                  "label": "Porchefontaine - Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591800:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "020409",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "020504",
+                "stop_point": {
+                  "name": "Pierre Édouard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800758",
+                    "lon": "2.161973"
+                  },
+                  "label": "Pierre Édouard (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414524:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "020517",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "020617",
+                "stop_point": {
+                  "name": "Viroflay Rive Gauche Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800963",
+                    "lon": "2.171215"
+                  },
+                  "label": "Viroflay Rive Gauche Noctilien (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591792:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "020637",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "020724",
+                "stop_point": {
+                  "name": "Grâce de Dieu",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.804194",
+                    "lon": "2.176873"
+                  },
+                  "label": "Grâce de Dieu (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414607:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "020739",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021001",
+                "stop_point": {
+                  "name": "Chaville Rive Gauche Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.804621",
+                    "lon": "2.188198"
+                  },
+                  "label": "Chaville Rive Gauche Noctilien (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591784:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021211",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021310",
+                "stop_point": {
+                  "name": "Atrium",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.809936",
+                    "lon": "2.190101"
+                  },
+                  "label": "Atrium (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414615:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021339",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021546",
+                "stop_point": {
+                  "name": "Hôpital Jean Rostand",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.820844",
+                    "lon": "2.201603"
+                  },
+                  "label": "Hôpital Jean Rostand (Sèvres)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414581:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021604",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "021743",
+                "stop_point": {
+                  "name": "Sèvres - Rive-Gauche - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.821422",
+                    "lon": "2.214567"
+                  },
+                  "label": "Sèvres - Rive-Gauche - Noctilien (Sèvres)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591164:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "021813",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "022408",
+                "stop_point": {
+                  "name": "Marcel Sembat",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.80994",
+                    "lon": "2.190076"
+                  },
+                  "label": "Marcel Sembat (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414714:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "022453",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "023021",
+                "stop_point": {
+                  "name": "Balard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.836811",
+                    "lon": "2.278751"
+                  },
+                  "label": "Balard (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414706:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "023147",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "023503",
+                "stop_point": {
+                  "name": "Porte de Versailles",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.832425",
+                    "lon": "2.287672"
+                  },
+                  "label": "Porte de Versailles (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414698:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "023630",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "amended_arrival_time": "024302",
+                "stop_point": {
+                  "name": "Gare Montparnasse Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.838687",
+                    "lon": "2.316877"
+                  },
+                  "label": "Gare Montparnasse Noctilien (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591156:Bus"
+                },
+                "stop_time_effect": "added",
+                "departure_status": "added",
+                "is_detour": false,
+                "amended_departure_time": "024302",
+                "cause": "",
+                "arrival_status": "added"
+              },
+              {
+                "stop_point": {
+                  "name": "La Verrière Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.755566",
+                    "lon": "1.942579"
+                  },
+                  "label": "La Verrière Noctilien (La Verrière)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591875:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Les Pyramides",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.763827",
+                    "lon": "1.947767"
+                  },
+                  "label": "Les Pyramides (Maurepas)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414557:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Franche-Comté - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.766242",
+                    "lon": "1.950293"
+                  },
+                  "label": "Franche-Comté - Noctilien (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87495770:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "La Petite Villedieu",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.766956",
+                    "lon": "1.96084"
+                  },
+                  "label": "La Petite Villedieu (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414565:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "La Passerelle",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.770651",
+                    "lon": "1.96983"
+                  },
+                  "label": "La Passerelle (Élancourt)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414573:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Trappes - Pasteur",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.77358",
+                    "lon": "1.98375"
+                  },
+                  "label": "Trappes - Pasteur (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414540:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Paul Langevin",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.775922",
+                    "lon": "1.989233"
+                  },
+                  "label": "Paul Langevin (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414532:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Trappes - Yves Farges",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.776798",
+                    "lon": "1.994949"
+                  },
+                  "label": "Trappes - Yves Farges (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414490:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Trappes Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.775061",
+                    "lon": "2.006447"
+                  },
+                  "label": "Trappes Noctilien (Trappes)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591867:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Groupe Scolaire Pasteur",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.782193",
+                    "lon": "2.034279"
+                  },
+                  "label": "Groupe Scolaire Pasteur (Montigny-le-Bretonneux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414599:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "St-Quentin-en-Yvelines - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.78035",
+                    "lon": "2.027347"
+                  },
+                  "label": "St-Quentin-en-Yvelines - Noctilien (Montigny-le-Bretonneux)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591859:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "St Cyr - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.799005",
+                    "lon": "2.072818"
+                  },
+                  "label": "St Cyr - Noctilien (Saint-Cyr-l'École)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591834:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Porte des Matelots",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.803411",
+                    "lon": "2.104817"
+                  },
+                  "label": "Porte des Matelots (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414516:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Versailles - Rive-Gauche -  Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800043",
+                    "lon": "2.128124"
+                  },
+                  "label": "Versailles - Rive-Gauche -  Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591826:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Versailles Chantiers Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.796313",
+                    "lon": "2.135918"
+                  },
+                  "label": "Versailles Chantiers Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591818:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Porchefontaine - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.796808",
+                    "lon": "2.153776"
+                  },
+                  "label": "Porchefontaine - Noctilien (Versailles)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591800:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Pierre Édouard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800758",
+                    "lon": "2.161973"
+                  },
+                  "label": "Pierre Édouard (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414524:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Viroflay Rive Gauche Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.800963",
+                    "lon": "2.171215"
+                  },
+                  "label": "Viroflay Rive Gauche Noctilien (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591792:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Grâce de Dieu",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.804194",
+                    "lon": "2.176873"
+                  },
+                  "label": "Grâce de Dieu (Viroflay)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414607:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Chaville Rive Gauche Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.804621",
+                    "lon": "2.188198"
+                  },
+                  "label": "Chaville Rive Gauche Noctilien (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591784:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Atrium",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.809936",
+                    "lon": "2.190101"
+                  },
+                  "label": "Atrium (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414615:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Hôpital Jean Rostand",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.820844",
+                    "lon": "2.201603"
+                  },
+                  "label": "Hôpital Jean Rostand (Sèvres)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414581:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Sèvres - Rive-Gauche - Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.821422",
+                    "lon": "2.214567"
+                  },
+                  "label": "Sèvres - Rive-Gauche - Noctilien (Sèvres)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591164:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Marcel Sembat",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.80994",
+                    "lon": "2.190076"
+                  },
+                  "label": "Marcel Sembat (Chaville)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414714:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Balard",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.836811",
+                    "lon": "2.278751"
+                  },
+                  "label": "Balard (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414706:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Porte de Versailles",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.832425",
+                    "lon": "2.287672"
+                  },
+                  "label": "Porte de Versailles (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87414698:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              },
+              {
+                "stop_point": {
+                  "name": "Gare Montparnasse Noctilien",
+                  "links": [
+
+                  ],
+                  "coord": {
+                    "lat": "48.838687",
+                    "lon": "2.316877"
+                  },
+                  "label": "Gare Montparnasse Noctilien (Paris)",
+                  "equipments": [
+
+                  ],
+                  "id": "stop_point:SNCF:87591156:Bus"
+                },
+                "stop_time_effect": "deleted",
+                "departure_status": "deleted",
+                "is_detour": false,
+                "cause": "",
+                "arrival_status": "deleted"
+              }
+            ],
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:18706542:1187:Bus",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:18706542:1187:Bus",
+              "trip": {
+                "id": "SNCF:2023-03-21:18706542:1187:Bus",
+                "name": "18706542"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "2e0ec2bd-a85f-4b45-9eb8-a9883fd49379",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "2e0ec2bd-a85f-4b45-9eb8-a9883fd49379"
+      },
+      {
+        "status": "past",
+        "disruption_id": "2efb4d38-69cc-4868-a63e-04fc75e79619",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "2efb4d38-69cc-4868-a63e-04fc75e79619",
+        "application_periods": [
+          {
+            "begin": "20230321T140700",
+            "end": "20230321T144800"
+          }
+        ],
+        "messages": [
+          {
+            "text": "Acte de vandalisme",
+            "channel": {
+              "content_type": "",
+              "id": "rt",
+              "types": [
+                "web",
+                "mobile"
+              ],
+              "name": "rt"
+            }
+          }
+        ],
+        "updated_at": "20230321T144642",
+        "uri": "2efb4d38-69cc-4868-a63e-04fc75e79619",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-21:885127:1187:Train",
+              "quality": 0,
+              "name": "SNCF:2023-03-21:885127:1187:Train",
+              "trip": {
+                "id": "SNCF:2023-03-21:885127:1187:Train",
+                "name": "885127"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "2efb4d38-69cc-4868-a63e-04fc75e79619",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "2efb4d38-69cc-4868-a63e-04fc75e79619"
+      }
+    ],
+    "pagination": {
+      "start_page": 0,
+      "items_on_page": 25,
+      "items_per_page": 25,
+      "total_result": 15809
+    },
+    "links": [
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_points/{stop_point.id}",
+        "type": "stop_point",
+        "rel": "stop_points",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions/{disruptions.id}",
+        "type": "disruptions",
+        "rel": "disruptions",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/trips/{trip.id}",
+        "type": "trip",
+        "rel": "trips",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions?start_page=632",
+        "type": "last",
+        "templated": false
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions",
+        "type": "first",
+        "templated": false
+      }
+    ],
+    "context": {
+      "timezone": "Europe/Paris",
+      "current_datetime": "20230321T175520"
+    },
+    "feed_publishers": [
+      {
+        "url": "",
+        "id": "sncf",
+        "license": "Private (unspecified)",
+        "name": "SNCF PIV Production"
+      },
+      {
+        "url": "",
+        "id": "SNCF:sncf-piv",
+        "license": "Private (unspecified)",
+        "name": "SNCF PIV Production"
+      }
+    ]
+  }

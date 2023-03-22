@@ -1,0 +1,342 @@
+{
+    "pagination": {
+      "start_page": 0,
+      "items_on_page": 1,
+      "items_per_page": 25,
+      "total_result": 1
+    },
+    "links": [
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_points/{stop_point.id}",
+        "type": "stop_point",
+        "rel": "stop_points",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/journey_patterns/{journey_pattern.id}",
+        "type": "journey_pattern",
+        "rel": "journey_patterns",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions/{disruptions.id}",
+        "type": "disruptions",
+        "rel": "disruptions",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions/{disruption.id}",
+        "type": "disruption",
+        "rel": "disruptions",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/vehicle_journeys/{vehicle_journeys.id}",
+        "type": "vehicle_journeys",
+        "rel": "vehicle_journeys",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/trips/{trip.id}",
+        "type": "trip",
+        "rel": "trips",
+        "templated": true
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/trips/SNCF:2023-03-20:7891:1187:LongDistanceTrain/vehicle_journeys",
+        "type": "first",
+        "templated": false
+      }
+    ],
+    "disruptions": [
+      {
+        "status": "past",
+        "disruption_id": "2f4015d8-673a-4b5f-8967-06fb9a802f8f",
+        "severity": {
+          "color": "#000000",
+          "priority": 42,
+          "name": "trip canceled",
+          "effect": "NO_SERVICE"
+        },
+        "impact_id": "2f4015d8-673a-4b5f-8967-06fb9a802f8f",
+        "application_periods": [
+          {
+            "begin": "20230320T103830",
+            "end": "20230320T163500"
+          }
+        ],
+        "updated_at": "20230321T100852",
+        "uri": "2f4015d8-673a-4b5f-8967-06fb9a802f8f",
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "embedded_type": "trip",
+              "id": "SNCF:2023-03-20:7891:1187:LongDistanceTrain",
+              "quality": 0,
+              "name": "SNCF:2023-03-20:7891:1187:LongDistanceTrain",
+              "trip": {
+                "id": "SNCF:2023-03-20:7891:1187:LongDistanceTrain",
+                "name": "7891"
+              }
+            }
+          }
+        ],
+        "disruption_uri": "2f4015d8-673a-4b5f-8967-06fb9a802f8f",
+        "contributor": "realtime.sncf.piv",
+        "cause": "",
+        "id": "2f4015d8-673a-4b5f-8967-06fb9a802f8f"
+      }
+    ],
+    "feed_publishers": [
+      {
+        "url": "",
+        "id": "sncf",
+        "license": "Private (unspecified)",
+        "name": "SNCF PIV Production"
+      },
+      {
+        "url": "",
+        "id": "SNCF:sncf-piv",
+        "license": "Private (unspecified)",
+        "name": "SNCF PIV Production"
+      }
+    ],
+    "context": {
+      "timezone": "Europe/Paris",
+      "current_datetime": "20230321T105148"
+    },
+    "vehicle_journeys": [
+      {
+        "codes": [
+          {
+            "type": "rt_piv",
+            "value": "2023-03-20:7891:1187:rail:highSpeedRail:FERRE"
+          },
+          {
+            "type": "source",
+            "value": "9de384d8b7b23722adb062d37d69abb4"
+          }
+        ],
+        "name": "7891",
+        "journey_pattern": {
+          "id": "journey_pattern:316",
+          "name": "journey_pattern:316"
+        },
+        "disruptions": [
+          {
+            "internal": true,
+            "type": "disruption",
+            "id": "2f4015d8-673a-4b5f-8967-06fb9a802f8f",
+            "rel": "disruptions",
+            "templated": false
+          }
+        ],
+        "calendars": [
+          {
+            "active_periods": [
+              {
+                "begin": "20230320",
+                "end": "20230321"
+              }
+            ],
+            "week_pattern": {
+              "monday": true,
+              "tuesday": false,
+              "friday": false,
+              "wednesday": false,
+              "thursday": false,
+              "sunday": false,
+              "saturday": false
+            }
+          }
+        ],
+        "stop_times": [
+          {
+            "stop_point": {
+              "name": "Paris - Gare de Lyon - Hall 1 & 2",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "48.844945",
+                "lon": "2.373481"
+              },
+              "label": "Paris - Gare de Lyon - Hall 1 & 2 (Paris)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87686006:LongDistanceTrain"
+            },
+            "utc_arrival_time": "093900",
+            "utc_departure_time": "093900",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "103900",
+            "drop_off_allowed": false,
+            "pickup_allowed": true,
+            "departure_time": "103900"
+          },
+          {
+            "stop_point": {
+              "name": "Lyon Saint-Exupéry TGV",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.721109",
+                "lon": "5.074969"
+              },
+              "label": "Lyon Saint-Exupéry TGV (Colombier-Saugnieu)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87762906:LongDistanceTrain"
+            },
+            "utc_arrival_time": "113300",
+            "utc_departure_time": "113700",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "123300",
+            "drop_off_allowed": true,
+            "pickup_allowed": true,
+            "departure_time": "123700"
+          },
+          {
+            "stop_point": {
+              "name": "Grenoble",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.191491",
+                "lon": "5.714548"
+              },
+              "label": "Grenoble (Grenoble)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87747006:LongDistanceTrain"
+            },
+            "utc_arrival_time": "125200",
+            "utc_departure_time": "125600",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "135200",
+            "drop_off_allowed": true,
+            "pickup_allowed": true,
+            "departure_time": "135600"
+          },
+          {
+            "stop_point": {
+              "name": "Albertville",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.672977",
+                "lon": "6.383167"
+              },
+              "label": "Albertville (Albertville)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87741645:LongDistanceTrain"
+            },
+            "utc_arrival_time": "135200",
+            "utc_departure_time": "141600",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "145200",
+            "drop_off_allowed": true,
+            "pickup_allowed": true,
+            "departure_time": "151600"
+          },
+          {
+            "stop_point": {
+              "name": "Moûtiers - Salins - Brides-les-Bains",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.48647",
+                "lon": "6.531399"
+              },
+              "label": "Moûtiers - Salins - Brides-les-Bains (Moûtiers)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87741728:LongDistanceTrain"
+            },
+            "utc_arrival_time": "143800",
+            "utc_departure_time": "144630",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "153800",
+            "drop_off_allowed": true,
+            "pickup_allowed": true,
+            "departure_time": "154630"
+          },
+          {
+            "stop_point": {
+              "name": "Aime - La Plagne",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.554387",
+                "lon": "6.648614"
+              },
+              "label": "Aime - La Plagne (Aime-la-Plagne)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87741769:LongDistanceTrain"
+            },
+            "utc_arrival_time": "145930",
+            "utc_departure_time": "150230",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "155930",
+            "drop_off_allowed": true,
+            "pickup_allowed": true,
+            "departure_time": "160230"
+          },
+          {
+            "stop_point": {
+              "name": "Bourg-Saint-Maurice",
+              "links": [
+
+              ],
+              "coord": {
+                "lat": "45.619036",
+                "lon": "6.771273"
+              },
+              "label": "Bourg-Saint-Maurice (Bourg-Saint-Maurice)",
+              "equipments": [
+
+              ],
+              "id": "stop_point:SNCF:87741793:LongDistanceTrain"
+            },
+            "utc_arrival_time": "153500",
+            "utc_departure_time": "153500",
+            "headsign": "7891",
+            "skipped_stop": false,
+            "arrival_time": "163500",
+            "drop_off_allowed": true,
+            "pickup_allowed": false,
+            "departure_time": "163500"
+          }
+        ],
+        "validity_pattern": {
+          "beginning_date": "20230319",
+          "days": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010"
+        },
+        "headsign": "7891",
+        "id": "vehicle_journey:SNCF:2023-03-20:7891:1187:LongDistanceTrain",
+        "trip": {
+          "id": "SNCF:2023-03-20:7891:1187:LongDistanceTrain",
+          "name": "7891"
+        }
+      }
+    ]
+  }

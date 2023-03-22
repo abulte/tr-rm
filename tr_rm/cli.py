@@ -105,9 +105,10 @@ def display():
 
 
 @cli
-def export_csv(date):
+def export_csv(date, prefix=".", incomplete=False):
     """
     :date: date for export, format is 20230333
+    :prefix: where to create the CSV file, default cwd
     """
     q = f"""
     SELECT * FROM disruptions
@@ -115,9 +116,30 @@ def export_csv(date):
     ORDER BY application_periods->'0'->>'begin' ASC
     """
     ds = query(q)
-    with open(f"tr-rm_{date}.csv", "w") as f:
+    filepath = f"{prefix}/tr-rm_{date}{'-INCOMPLETE' if incomplete else ''}.csv"
+    with open(filepath, "w") as f:
         w = DataclassWriter(f, [DisruptionDocument(d) for d in ds], DisruptionDocument)
         w.write()
+    return filepath
+
+
+@cli
+def publish_tomorrow():
+    """Publish data for tomorrow on data.gouv.fr"""
+    incomplete = False
+    try:
+        tomorrow()
+    except httpx.HTTPStatusError:
+        incomplete = True
+    export_date = datetime.now() + timedelta(days=1)
+    date_str = export_date.strftime("%Y%m%d")
+    filepath = export_csv(date_str, prefix="/tmp", incomplete=incomplete)
+    files = {"file": open(filepath, "rb")}
+    r = httpx.post(
+        f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/",
+        files=files, headers={"x-api-key": config.DATAGOUVFR_API_KEY}
+    )
+    r.raise_for_status()
 
 
 if __name__ == "__main__":

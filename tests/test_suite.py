@@ -74,3 +74,8 @@ def test_process_disruptions(httpx_mock, fake_journey):
     d = Disruption.get(did)
     assert d["status"] == "fake"
     assert d["vehicle_journeys"] == fake_journey["vehicle_journeys"]
+
+    # test number of details request (journeys)
+    r_journeys = [r for r in httpx_mock.get_requests() if "vehicle_journeys" in r.url.path]
+    # 16 for "stock" + 1 for update
+    assert len(r_journeys) == 16 + 1

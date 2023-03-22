@@ -95,3 +95,14 @@ def test_publish_tomorrow(httpx_mock, mock_sncf):
     date_str = export_date.strftime("%Y%m%d")
     assert f'filename="tr-rm_{date_str}.csv"'.encode("utf-8") in request.content
     assert "x-api-key" in request.headers and request.headers["content-length"] == "254"
+
+
+def test_publish_tomorrow_fail(httpx_mock, mock_sncf):
+    httpx_mock.add_response(url=journeys_re, status_code=429)
+    httpx_mock.add_response(url=f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/")
+    publish_tomorrow()
+    request = httpx_mock.get_requests()[-1]
+    request.read()
+    export_date = datetime.now() + timedelta(days=1)
+    date_str = export_date.strftime("%Y%m%d")
+    assert f'filename="tr-rm_{date_str}-INCOMPLETE.csv"'.encode("utf-8") in request.content

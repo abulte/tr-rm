@@ -1,0 +1,8 @@
+{
+  "cron": [
+    {
+      "command": "tr_rm publish_tomorrow",
+      "schedule": "0 17 * * *"
+    }
+  ]
+}

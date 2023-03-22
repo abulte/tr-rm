@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 
 import httpx
 
+from dataclass_csv import DataclassWriter
 from minicli import cli, run
 from tabulate import tabulate
 
@@ -79,6 +80,20 @@ def next_day():
 
 
 @cli
+def today():
+    since = datetime.now().replace(hour=0, minute=0, second=0)
+    until = since + timedelta(days=1)
+    process_disruptions(since, until)
+
+
+@cli
+def tomorrow():
+    since = (datetime.now() + timedelta(days=1)).replace(hour=0, minute=0, second=0)
+    until = since + timedelta(days=1)
+    process_disruptions(since, until)
+
+
+@cli
 def display():
     q = """
     SELECT * FROM disruptions
@@ -87,6 +102,22 @@ def display():
     ds = query(q)
     ds = [DisruptionDocument(d).__dict__ for d in ds]
     print(tabulate(ds, headers="keys"))
+
+
+@cli
+def export_csv(date):
+    """
+    date: date for export, format is 20230333
+    """
+    q = f"""
+    SELECT * FROM disruptions
+    WHERE application_periods->'0'->>'begin' LIKE "{date}%"
+    ORDER BY application_periods->'0'->>'begin' ASC
+    """
+    ds = query(q)
+    with open(f"tr-rm_{date}.csv", "w") as f:
+        w = DataclassWriter(f, [DisruptionDocument(d) for d in ds], DisruptionDocument)
+        w.write()
 
 
 if __name__ == "__main__":

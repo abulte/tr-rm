@@ -100,6 +100,18 @@ files = [
 ]
 
 [[package]]
+name = "dataclass-csv"
+version = "1.4.0"
+description = "Map CSV data into dataclasses"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "dataclass-csv-1.4.0.tar.gz", hash = "sha256:6a9207537ccdc3f381d50c3f5d053ce5a92ef0d61850f7a159e3f52eb79f0402"},
+    {file = "dataclass_csv-1.4.0-py2.py3-none-any.whl", hash = "sha256:e01e99fa75779bb86ae3b9577a06ffc8632061c03115d6a0823137458bfa3d1c"},
+]
+
+[[package]]
 name = "dataset"
 version = "1.6.0"
 description = "Toolkit for Python-based database access."
@@ -669,4 +681,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4818f653c51dd8243fe6f0dd7fe821201a02304d484b58921b427666e620197e"
+content-hash = "696e88acd299c479c3aee76a91f11f41cf03f4b028e912d64866669c9b7f053a"

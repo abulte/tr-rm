@@ -40,13 +40,13 @@ class DisruptionDocument:
     """Serialize a disruption from database in an usable way"""
     data: InitVar[row_type]
     # fields
+    departure_date: date = field(init=False)
     departure: str = field(init=False)
     arrival: str = field(init=False)
     departure_time: datetime = field(init=False)
     arrival_time: datetime = field(init=False)
     headsign: str = field(init=False)
     type: str = field(init=False)
-    departure_date: date = field(init=False)
 
     def find_by_kv(self, _list: list, key: str, value):
         """Find an element from a list from a key value"""

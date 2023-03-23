@@ -1,7 +1,7 @@
 {
   "cron": [
     {
-      "command": "tr_rm publish_tomorrow",
+      "command": "tr_rm publish_tomorrow &>> /home/dokku/tr-rm_cron.txt",
       "schedule": "0 17 * * *"
     }
   ]

@@ -108,6 +108,7 @@ def export_csv(date, prefix=".", incomplete=False):
     """
     :date: date for export, format is 20230333
     :prefix: where to create the CSV file, default cwd
+    :incomplete: mark CSV file as incomplete
     """
     t = table("disruptions").table
     # NB: there's an ugly " before the like expression because sqlalchemy output quoted str for json attrs
@@ -118,7 +119,18 @@ def export_csv(date, prefix=".", incomplete=False):
     with open(filepath, "w") as f:
         w = DataclassWriter(f, [DisruptionDocument(d) for d in ds], DisruptionDocument)
         w.write()
+    log.debug(f"CSV exported to {filepath}")
     return filepath
+
+
+@cli
+def upload_datagouvfr(filepath):
+    files = {"file": open(filepath, "rb")}
+    r = httpx.post(
+        f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/",
+        files=files, headers={"x-api-key": config.DATAGOUVFR_API_KEY}
+    )
+    r.raise_for_status()
 
 
 @cli
@@ -127,17 +139,13 @@ def publish_tomorrow():
     incomplete = False
     try:
         tomorrow()
-    except httpx.HTTPStatusError:
+    except httpx.HTTPStatusError as e:
+        log.error(f"Incomplete processing: {e}")
         incomplete = True
     export_date = datetime.now() + timedelta(days=1)
     date_str = export_date.strftime("%Y%m%d")
     filepath = export_csv(date_str, prefix="/tmp", incomplete=incomplete)
-    files = {"file": open(filepath, "rb")}
-    r = httpx.post(
-        f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/",
-        files=files, headers={"x-api-key": config.DATAGOUVFR_API_KEY}
-    )
-    r.raise_for_status()
+    upload_datagouvfr(filepath)
 
 
 if __name__ == "__main__":

@@ -6,10 +6,11 @@ import httpx
 
 from dataclass_csv import DataclassWriter
 from minicli import cli, run
+from sqlalchemy import cast, String
 from tabulate import tabulate
 
 from tr_rm import config
-from tr_rm.db import query
+from tr_rm.db import query, table
 from tr_rm.models import Disruption, DisruptionDocument
 
 HEADERS = {"Authorization": config.SNCF_API_KEY}
@@ -95,10 +96,8 @@ def tomorrow():
 
 @cli
 def display():
-    q = """
-    SELECT * FROM disruptions
-    ORDER BY application_periods->'0'->>'begin' ASC
-    """
+    t = table("disruptions").table
+    q = t.select().order_by(cast(t.c.application_periods[0]["begin"], String).asc())
     ds = query(q)
     ds = [DisruptionDocument(d).__dict__ for d in ds]
     print(tabulate(ds, headers="keys"))
@@ -110,11 +109,10 @@ def export_csv(date, prefix=".", incomplete=False):
     :date: date for export, format is 20230333
     :prefix: where to create the CSV file, default cwd
     """
-    q = f"""
-    SELECT * FROM disruptions
-    WHERE application_periods->'0'->>'begin' LIKE "{date}%"
-    ORDER BY application_periods->'0'->>'begin' ASC
-    """
+    t = table("disruptions").table
+    # NB: there's an ugly " before the like expression because sqlalchemy output quoted str for json attrs
+    q = t.select().where(cast(t.c.application_periods[0]["begin"], String).like(f'"{date}%'))
+    q = q.order_by(cast(t.c.application_periods[0]["begin"], String).asc())
     ds = query(q)
     filepath = f"{prefix}/tr-rm_{date}{'-INCOMPLETE' if incomplete else ''}.csv"
     with open(filepath, "w") as f:

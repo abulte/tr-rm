@@ -59,9 +59,15 @@ class DisruptionDocument:
         """"103900" -> [10, 39, 00]"""
         return [int(x) for x in (time_str[0:2], time_str[2:4], time_str[4:6])]
 
+    def json_col(self, value):
+        """Postgres deserialize JSON lists, sqlite does not..."""
+        if type(value) is str:
+            return json.loads(value)
+        return value
+
     def __post_init__(self, data: row_type):
         # TODO: handle multiple journeys?
-        journey = json.loads(data["vehicle_journeys"])[0]
+        journey = self.json_col(data["vehicle_journeys"])[0]
         full_type = self.find_by_kv(journey["codes"], "type", "rt_piv")["value"]
         self.type = ":".join(full_type.split(":")[-2:])
         stops = journey["stop_times"]
@@ -70,7 +76,7 @@ class DisruptionDocument:
         self.departure = departure["stop_point"]["name"]
         self.arrival = arrival["stop_point"]["name"]
         self.headsign = departure["headsign"]
-        periods = json.loads(data["application_periods"])[0]
+        periods = self.json_col(data["application_periods"])[0]
         fmt = "%Y%m%dT%H%M%S"
         self.departure_time = datetime.strptime(periods["begin"], fmt)
         self.arrival_time = datetime.strptime(periods["end"], fmt)

@@ -97,7 +97,7 @@ def tomorrow():
 def display():
     q = """
     SELECT * FROM disruptions
-    ORDER BY application_periods->'0'->'begin' ASC
+    ORDER BY application_periods->'0'->>'begin' ASC
     """
     ds = query(q)
     ds = [DisruptionDocument(d).__dict__ for d in ds]

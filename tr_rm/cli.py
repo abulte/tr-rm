@@ -132,6 +132,15 @@ def upload_datagouvfr(filepath):
 
 
 @cli
+def export_and_upload(date_str: str, incomplete: bool = False):
+    """Export from database for given date and upload to data.gouv.fr
+    :date: date for export, format is 20230333
+    """
+    filepath = export_csv(date_str, prefix="/tmp", incomplete=incomplete)
+    upload_datagouvfr(filepath)
+
+
+@cli
 def publish_tomorrow():
     """Publish data for tomorrow on data.gouv.fr"""
     incomplete = False
@@ -142,8 +151,7 @@ def publish_tomorrow():
         incomplete = True
     export_date = datetime.now() + timedelta(days=1)
     date_str = export_date.strftime("%Y%m%d")
-    filepath = export_csv(date_str, prefix="/tmp", incomplete=incomplete)
-    upload_datagouvfr(filepath)
+    export_and_upload(date_str, incomplete=incomplete)
 
 
 if __name__ == "__main__":

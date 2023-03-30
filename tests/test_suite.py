@@ -6,6 +6,8 @@ from pathlib import Path
 
 import pytest
 
+from pytest_httpx import HTTPXMock
+
 from tr_rm import config
 from tr_rm.cli import process_disruptions, publish_tomorrow
 from tr_rm.models import Disruption
@@ -52,7 +54,7 @@ def fake_journey():
     }
 
 
-def test_process_disruptions(httpx_mock, fake_journey, mock_sncf):
+def test_process_disruptions(httpx_mock: HTTPXMock, fake_journey, mock_sncf):
     s = u = datetime.now()
     # TODO: test pagination (no next in test file)
     process_disruptions(s, u)
@@ -86,7 +88,7 @@ def test_process_disruptions(httpx_mock, fake_journey, mock_sncf):
     assert len(r_journeys) == 16 + 1
 
 
-def test_publish_tomorrow(httpx_mock, mock_sncf):
+def test_publish_tomorrow(httpx_mock: HTTPXMock, mock_sncf):
     httpx_mock.add_response(url=f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/")
     publish_tomorrow()
     request = httpx_mock.get_requests()[-1]
@@ -97,7 +99,7 @@ def test_publish_tomorrow(httpx_mock, mock_sncf):
     assert "x-api-key" in request.headers and request.headers["content-length"] == "254"
 
 
-def test_publish_tomorrow_fail(httpx_mock, mock_sncf):
+def test_publish_tomorrow_fail_429(httpx_mock: HTTPXMock, mock_sncf):
     httpx_mock.add_response(url=journeys_re, status_code=429)
     httpx_mock.add_response(url=f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/")
     publish_tomorrow()

@@ -2,14 +2,12 @@ import logging
 
 from datetime import datetime, timedelta
 
-import httpx
-
 from dataclass_csv import DataclassWriter
 from minicli import cli, run
 from sqlalchemy import cast, String
 from tabulate import tabulate
 
-from tr_rm import config
+from tr_rm import config, http
 from tr_rm.db import query, table
 from tr_rm.models import Disruption, DisruptionDocument
 
@@ -22,7 +20,7 @@ log = logging.getLogger("tr_rm")
 
 def process_disruptions(since: datetime, until: datetime, effects=["NO_SERVICE"]):
     def _get(url: str):
-        r = httpx.get(url, headers=HEADERS, params={
+        r = http.client().get(url, headers=HEADERS, params={
             "since": since.isoformat(),
             "until": until.isoformat(),
         })
@@ -49,7 +47,7 @@ def enrich_disruptions(disruptions: list):
                 log.warning(f"PT type is {pt['type']} for disruption {disrupt['disruption_id']}")
                 continue
             url = f"{BASE_URL}/coverage/sncf/trips/{pt['id']}/vehicle_journeys?disable_disruption=true"
-            r = httpx.get(url, headers=HEADERS)
+            r = http.client().get(url, headers=HEADERS)
             r.raise_for_status()
             journeys = r.json()["vehicle_journeys"]
             disrupt["vehicle_journeys"] = journeys
@@ -126,7 +124,7 @@ def export_csv(date, prefix=".", incomplete=False):
 @cli
 def upload_datagouvfr(filepath):
     files = {"file": open(filepath, "rb")}
-    r = httpx.post(
+    r = http.client().post(
         f"https://www.data.gouv.fr/api/1/datasets/{config.DATAGOUVFR_DATASET_ID}/upload/",
         files=files, headers={"x-api-key": config.DATAGOUVFR_API_KEY}
     )
@@ -139,7 +137,7 @@ def publish_tomorrow():
     incomplete = False
     try:
         tomorrow()
-    except httpx.HTTPStatusError as e:
+    except http.HTTPStatusError as e:
         log.error(f"Incomplete processing: {e}")
         incomplete = True
     export_date = datetime.now() + timedelta(days=1)

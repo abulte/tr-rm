@@ -28,6 +28,12 @@ pytest = "^7.2.2"
 pytest-httpx = "^0.21.3"
 flake8 = "^6.0.0"
 
+
+[tool.poetry.group.analysis.dependencies]
+pandas = "^2.0.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.7.1"
+
 [tool.pytest.ini_options]
 filterwarnings = "ignore:.*SQLAlchemy 2.0.*:DeprecationWarning"
 

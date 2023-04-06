@@ -103,8 +103,8 @@ def display():
 
 @cli
 def export_csv(date, prefix=".", incomplete=False):
-    """
-    :date: date for export, format is 20230333
+    """Export a csv file from database for a given date
+    :date: date for export, format is 20230323
     :prefix: where to create the CSV file, default cwd
     :incomplete: mark CSV file as incomplete
     """
@@ -134,7 +134,7 @@ def upload_datagouvfr(filepath):
 @cli
 def export_and_upload(date_str: str, incomplete: bool = False):
     """Export from database for given date and upload to data.gouv.fr
-    :date: date for export, format is 20230333
+    :date: date for export, format is 20230323
     """
     filepath = export_csv(date_str, prefix="/tmp", incomplete=incomplete)
     upload_datagouvfr(filepath)
